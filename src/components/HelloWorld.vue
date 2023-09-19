@@ -21,6 +21,11 @@ const count = ref(0)
 <style scoped>
 .read-the-docs {
   color: #888;
+}
+.card {
   height: 4em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
 }
 </style>
